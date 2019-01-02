@@ -1,11 +1,10 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 import "../css/welcome.css";
 
 const Welcome = () => (
-
-
-  
-  <section>
+  <ScrollableAnchor id={'home'}>
+  <section id="home">
     <div id="container">
       <h1>Hi! I am Patrick!</h1>
       <img src={require('../pics/me.jpg')} />
@@ -23,6 +22,7 @@ const Welcome = () => (
       </div>
     </div>
   </section>
+  </ScrollableAnchor>
 );
 
 export default Welcome;
