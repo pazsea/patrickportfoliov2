@@ -1,0 +1,44 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.contImg i {
+    size: 30px;
+}
+
+h1 {
+    
+
+}
+
+.photo {
+    display: flex;
+    width: 40%;
+    height: 200px;
+    border: solid 2px red;
+
+}
+
+#contacts {
+    display: flex;
+    width: 60%;
+    height: 80px;
+    flex-wrap: nowrap;
+    border: 2px solid green;
+    justify-content: space-around;
+}
+
+.contImg{
+    border: solid 2px red;
+    flex: 0.2;
+}
