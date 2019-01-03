@@ -1,14 +1,14 @@
 import React from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+import { Element  } from 'react-scroll';
+
 import "../css/aboutme.css";
 
 const AboutMe = () => (
-  
-  <ScrollableAnchor id={"about"}>
+  <Element name="aboutme">
     <section>
       <h1>Hi! I am Patrick!</h1>
     </section>
-  </ScrollableAnchor>
+  </Element>
 );
 
 export default AboutMe;

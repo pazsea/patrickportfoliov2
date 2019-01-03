@@ -1,26 +1,18 @@
-import React from 'react';
-import ScrollableAnchor from "react-scrollable-anchor";
-import '../css/portfolio.css';
+import React from "react";
+import { Element  } from 'react-scroll';
+import "../css/portfolio.css";
 
 const Portfolio = () => (
-    <ScrollableAnchor id={"portfolio"}>
+  <Element name="portfolio">
     <section>
-    <p>Hello!</p>
-    <div className="container">
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-
-    </div>
+      <p>Hello!</p>
+      <div className="container">
+        <div />
+        <div />
+        <div />
+      </div>
     </section>
-    </ScrollableAnchor>
-
+  </Element>
 );
 
 export default Portfolio;
