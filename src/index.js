@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-const planets = [
+const projects = [
   {
     id: "1",
     text: "Mitt första projekt",
@@ -22,10 +22,10 @@ const planets = [
     text: "Mitt tredje",
     url: "img/earth.jpg",
     alt: "tre"
-  }
+  },
 ];
 
-ReactDOM.render(<App planets={...props } />, document.getElementById("root"));
+ReactDOM.render(<App projects={ projects } />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
