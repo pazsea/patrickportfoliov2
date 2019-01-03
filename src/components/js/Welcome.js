@@ -3,8 +3,8 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 import "../css/welcome.css";
 
 const Welcome = () => (
-  <ScrollableAnchor id={'home'}>
-  <section id="home">
+  <ScrollableAnchor id={'welcome'}>
+  <section>
     <div id="container">
       <h1>Hi! I am Patrick!</h1>
       <img src={require('../pics/me.jpg')} />

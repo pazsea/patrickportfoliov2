@@ -9,8 +9,8 @@ const App = () => (
   <React.Fragment>
     <Welcome />
     <Navbar /> 
-    <Portfolio />
     <AboutMe />
+    <Portfolio />
   </React.Fragment>
 );
 
