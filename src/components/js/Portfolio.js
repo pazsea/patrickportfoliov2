@@ -7,7 +7,6 @@ import "../css/portfolio.css";
 const Portfolio = (props) => (
   <Element name="portfolio">
     <section>
-      <p>Hello!</p>
         <div className="container">
       {props.projects.map( project => 
         <Cards

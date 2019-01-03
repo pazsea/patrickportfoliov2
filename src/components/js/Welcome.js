@@ -1,37 +1,34 @@
-import React, {Component} from "react";
-import { Element  } from 'react-scroll';
+import React, { Component } from "react";
+import { Element } from "react-scroll";
 import "../css/welcome.css";
 
-
-
-class  Welcome extends Component {
-
+class Welcome extends Component {
   render() {
     return (
-        <Element name="welcome">
+      <Element name="welcome">
         <section>
           <div id="container">
             <h1>Hi! I am Patrick!</h1>
-            <img src={require('../pics/me.jpg')} alt="Patrick Sjöberg" />
+            <img src={require("../pics/me.jpg")} alt="Patrick Sjöberg" />
+          </div>
+          <div id="title">
             <p>Front End Developer | Ninja Warrior | Citizen </p>
-            <div id="contacts">
-              <div className="contImg">
-                <i className="fab fa-github" />
-              </div>
-              <div className="contImg">
-                <i className="fab fa-facebook" />
-              </div>
-              <div className="contImg">
-                <i className="fab fa-linkedin" />
-              </div>
+          </div>
+          <div id="contacts">
+            <div className="contImg">
+              <i className="fab fa-github" />
+            </div>
+            <div className="contImg">
+              <i className="fab fa-facebook" />
+            </div>
+            <div className="contImg">
+              <i className="fab fa-linkedin" />
             </div>
           </div>
         </section>
-        </Element>
-
-    )
+      </Element>
+    );
   }
 }
-
 
 export default Welcome;
