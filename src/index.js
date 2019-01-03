@@ -4,23 +4,25 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+
+
 const projects = [
   {
     id: "1",
     text: "Mitt första projekt",
-    url: "img/earth.jpg",
+    url: require("../src/components/pics/firstproject.png"),
     alt: "ett"
   },
   {
     id: "2",
     text: "Mitt andra projekt",
-    url: "img/earth.jpg",
+    url: require("../src/components/pics/myportfolio.png"),
     alt: "två"
   },
   {
     id: "3",
     text: "Mitt tredje",
-    url: "img/earth.jpg",
+    url: require("../src/components/pics/quirepage.png"),
     alt: "tre"
   },
 ];

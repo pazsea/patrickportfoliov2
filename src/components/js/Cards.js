@@ -5,9 +5,9 @@ const Cards = props => {
   return (
     <div className="container-all">
       <img src={props.url} alt={props.alt} />
-      <div className="container-text">
         <p>{props.text}</p>
-      </div>
+        <button>Read More...</button>
+
     </div>
   );
 };
