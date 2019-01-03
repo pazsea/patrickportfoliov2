@@ -39,10 +39,7 @@ body {
     color: #212121;
   }
   
-  .fixed-nav {
-    position: fixed;
-  }
-  
+
   .content {
     width: 80%;
     margin: 0 auto;

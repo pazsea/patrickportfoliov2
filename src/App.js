@@ -5,12 +5,15 @@ import AboutMe from "./components/js/AboutMe";
 import Navbar from "./components/js/Navbar";
 
 
-const App = () => (
+
+const App = (props) => (
   <React.Fragment>
     <Welcome />
     <Navbar /> 
     <AboutMe />
-    <Portfolio />
+    <Portfolio 
+    {...props}
+    />
   </React.Fragment>
 );
 

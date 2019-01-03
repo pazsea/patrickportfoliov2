@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sticky from "react-sticky-el";
-import { Link, Element } from "react-scroll";
+import { Link } from "react-scroll";
 import "../css/navbar.css";
 
 class Nav extends Component {
@@ -10,7 +10,6 @@ class Nav extends Component {
         <nav>
           <ul>
             <li>
-              {" "}
               <Link
                 activeClass="active"
                 to="welcome"
