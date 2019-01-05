@@ -29,7 +29,7 @@ class App extends Component {
 
     if (this.state.sideDrawerOpen) {
       sideDrawer = <SideDrawer click={this.backDropClickHandler}/>;
-      backdrop =<Backdrop />
+      backdrop =<Backdrop click={this.backDropClickHandler} />
     }
     return (
       <React.Fragment>
