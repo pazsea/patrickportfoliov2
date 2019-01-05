@@ -37,4 +37,17 @@
 
 .close {
     width: 100px;
+    background:none;
+    border: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    cursor: pointer;
+;
+}
+
+.close:hover {
+
+        color: rgb(211, 43, 43);
 }
