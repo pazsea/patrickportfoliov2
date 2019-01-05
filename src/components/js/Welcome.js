@@ -9,7 +9,7 @@ class Welcome extends Component {
         <section>
           <div id="container">
             <h1>Hi! I am Patrick!</h1>
-            <img src={require("../pics/me.jpg")} alt="Patrick Sjöberg" />
+            <img src={require("../pics/meavatar.jpg")} alt="Patrick Sjöberg" />
           </div>
           <div id="title">
             <p>Front End Developer | Ninja Warrior | Citizen </p>

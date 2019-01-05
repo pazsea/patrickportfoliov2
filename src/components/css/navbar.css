@@ -1,60 +1,51 @@
-nav {
-  background: white;  
-  color: black;
-  font-size: 2.4em;
-  font-family: "Montserrat", sans-serif;
-  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-  border-radius: 2px;
-  display: flex;
-  justify-content: space-between;
-
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  background: red;
+  height: 56px;
+
 }
 
-ul {
+.toolbar__navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.toolbar__logo {
+  margin-left: 0.5rem;
+}
+
+.toolbar__logo img  {
+  width: 50%;
+}
+
+.toolbar__navigation-items ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
   display: flex;
-  margin-right: 10%;
+}
+
+.toolbar__navigation-items li {
+  padding: 0 0.5rem;
 }
 
 
-
-a {
-	color: #34495e;
-	text-decoration: none;
-}
-
-
-
-.logo {
-	margin-left: 10%;
-	font-size: 1.45em;
-}
-
-.main-nav {
-	margin-top: 5px;
+.toolbar__navigation a {
+  color: white;
+  text-decoration: none;  
 
 }
-.logo a,
-.main-nav a {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	text-align: center;
-  display: block;
-  cursor: pointer;
+
+.toolbar__navigation a:hover,
+.toolbar__navigation a:active {
+  color: orange;
 }
 
-.main-nav a {
-	color: #094a8a;
-	font-size: .965em;
-}
-
-.main-nav a:hover {
-	color: #b9cbdf;
+.spacer {
+  flex: 1;
 }
