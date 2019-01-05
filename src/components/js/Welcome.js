@@ -7,23 +7,27 @@ class Welcome extends Component {
     return (
       <Element name="welcome">
         <section>
-          <div id="container">
-            <h1>Hi! I am Patrick!</h1>
-            <img src={require("../pics/meavatar.jpg")} alt="Patrick Sjöberg" />
-          </div>
-          <div id="title">
-            <p>Front End Developer | Ninja Warrior | Citizen </p>
-          </div>
-          <div id="contacts">
-            <div className="contImg">
-              <i className="fab fa-github" />
+          <div className="welcomeall">
+            <div className="greeting">
+              <h1>Hi! I am Patrick.</h1>
             </div>
-            <div className="contImg">
-              <i className="fab fa-facebook" />
+            <div className="picture">
+              <img
+              className="avatarme"
+                src={require("../pics/meavatar.jpg")}
+                alt="Patrick Sjöberg"
+              />
             </div>
-            <div className="contImg">
-              <i className="fab fa-linkedin" />
+            <div className="work__title"><p>Front End Developer | Ninja Warrior | Citizen </p></div>
+            <div className="contact__div">
+              <div className="contact__img">
+                <i className="fab fa-github fa-4x" />
+                <i className="fab fa-facebook fa-4x" />
+                <i className="fab fa-linkedin fa-4x" />
+              </div>
             </div>
+            <div className="arrow__container" ><div className="arrow"></div></div>
+            
           </div>
         </section>
       </Element>
@@ -32,3 +36,24 @@ class Welcome extends Component {
 }
 
 export default Welcome;
+
+{
+  /* <div id="container">
+<h1>Hi! I am Patrick!</h1>
+<img src={require("../pics/meavatar.jpg")} alt="Patrick Sjöberg" />
+</div>
+<div id="title">
+<p>Front End Developer | Ninja Warrior | Citizen </p>
+</div>
+<div id="contacts">
+<div className="contImg">
+  <i className="fab fa-github" />
+</div>
+<div className="contImg">
+  <i className="fab fa-facebook" />
+</div>
+<div className="contImg">
+  <i className="fab fa-linkedin" />
+</div>
+</div> */
+}
