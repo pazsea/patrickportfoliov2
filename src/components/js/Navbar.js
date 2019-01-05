@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Sticky from "react-sticky-el";
-import DrawerToggleButton from '../js/DrawerToggleButton';
+import DrawerToggleButton from "../js/DrawerToggleButton";
 import { Link } from "react-scroll";
 import "../css/navbar.css";
 
@@ -8,25 +8,47 @@ class Nav extends Component {
   render() {
     return (
       <Sticky>
-      <header className="toolbar">
-      <nav className="toolbar__navigation">
-        <div>
-          <DrawerToggleButton click={this.props.drawerClickHandler} />
-        </div>
-        <div className="toolbar__logo"><a href="/"><img src={require("../pics/logo.svg")}></img></a></div>
-        <div className="spacer"></div>
-        <div className="toolbar__navigation-items">
-          <ul>
-            <li><a href="/">About Me</a></li>
-            <li><a href="/">Portfolio</a></li>
-            <li><a href="/">Contact</a></li>
-          </ul>
-        </div>
+        <header className="toolbar">
+          <nav className="toolbar__navigation">
+            <div className="toolbar__toggle-button">
+              <DrawerToggleButton click={this.props.drawerClickHandler} />
+            </div>
+            <div className="toolbar__logo">
+              <Link
+                to="welcome"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                <a>
+                  <img src={require("../pics/logo.svg")} />
+                </a>
+              </Link>
+            </div>
+            <div className="spacer" />
+            <div className="toolbar__navigation-items">
+              <ul>
+                <li>
+                  <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500}>
+                    <a>About Me</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
+                    <a>Portfolio</a>
+                  </Link>
+                </li>
 
-        </nav>
-
-      </header>
-
+                <li>
+                  <Link to="contact"  spy={true}smooth={true} offset={0} duration={500}>
+                    <a>Contact</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
       </Sticky>
     );
   }
@@ -34,8 +56,8 @@ class Nav extends Component {
 
 export default Nav;
 
-
-{/* <Link
+{
+  /* <Link
 activeClass="active"
 to="contact"
 spy={true}
@@ -45,4 +67,5 @@ duration={500}
 onSetActive={this.handleSetActive}
 >
 Contact
-</Link> */}
+</Link> */
+}

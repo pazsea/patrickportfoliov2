@@ -20,22 +20,23 @@ class App extends Component {
   };
 
   backDropClickHandler = () => {
-    this.setState({sideDrawerOpen: false})
-  }
+    this.setState({ sideDrawerOpen: false });
+  };
 
   render() {
-    let sideDrawer;
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer click={this.backDropClickHandler}/>;
-      backdrop =<Backdrop click={this.backDropClickHandler} />
+      backdrop = <Backdrop click={this.backDropClickHandler} />;
     }
     return (
       <React.Fragment>
         <Welcome />
-        <Navbar drawerClickHandler = {this.drawerToggleClickHandler} />
-        {sideDrawer}
+        <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer
+          show={this.state.sideDrawerOpen}
+          click={this.backDropClickHandler}
+        />
         {backdrop}
         <AboutMe />
         <Portfolio {...this.props} />

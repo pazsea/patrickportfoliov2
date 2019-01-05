@@ -4,27 +4,37 @@ import { Link } from "react-scroll";
 import "../css/sideDrawer.css";
 
 const sideDrawer = props => {
+  let drawerClasses = "side-drawer";
+  if (props.show) {
+    drawerClasses = "side-drawer open";
+  }
+
+  let close = props.click;
+
   return (
-    <nav className="side-drawer">
+    <nav className={drawerClasses}>
       <ul>
-        <li>
-          <button className="close" onClick={props.click}>
-            <i class="fas fa-times-circle fa-3x" />
-          </button>{" "}
+        <button className="close" onClick= {close}>
+          <i class="fas fa-times-circle fa-3x" />
+        </button>
+        <li id="logo">
+          <img src={require("../pics/logo.svg")} />
         </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="welcome"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={500}
-          >
-            <a>Home</a>
-          </Link>
-        </li>
-        <li>
+
+        <Link
+          activeClass="active"
+          to="welcome"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <li onClick= {close}>
+            <a onClick= {close}>Home</a>
+          </li>
+        </Link>
+
+        <li onClick= {close}>
           <Link
             activeClass="active"
             to="aboutme"
@@ -33,10 +43,10 @@ const sideDrawer = props => {
             offset={0}
             duration={500}
           >
-            <a>About Me</a>
+            <a onClick= {close}>About Me</a>
           </Link>
         </li>
-        <li>
+        <li onClick= {close}>
           <Link
             activeClass="active"
             to="portfolio"
@@ -45,10 +55,10 @@ const sideDrawer = props => {
             offset={0}
             duration={500}
           >
-            <a>Portfolio</a>
+            <a onClick= {close}>Portfolio</a>
           </Link>
         </li>
-        <li>
+        <li onClick= {close}>
           <Link
             activeClass="active"
             to="Feedback"
@@ -57,7 +67,7 @@ const sideDrawer = props => {
             offset={0}
             duration={500}
           >
-            <a>Feedback</a>
+            <a onClick= {close}>Feedback</a>
           </Link>
         </li>
       </ul>
