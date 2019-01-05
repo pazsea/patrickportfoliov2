@@ -23,7 +23,7 @@
   border-top-left-radius: 5px;
 }
 
-button {
+.readmore {
   margin-top: 40px;
   margin-bottom: 10px;
   background-color: white;
@@ -32,7 +32,7 @@ button {
   padding: 10px;
 }
 
-button:hover {
+.readmore:hover {
   background-color: black;
   color: white;
   transition: 0.5s;

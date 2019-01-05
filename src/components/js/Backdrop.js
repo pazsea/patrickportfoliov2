@@ -3,7 +3,7 @@ import React from "react";
 import "../css/backdrop.css";
 
 const Backdrop = props => (
-  <button className="backdrop" onClick={props.click} />
+  <button id="backdrop" onClick={props.click}><i class="fas fa-times-circle fa-5x"></i></button>
 );
  
 

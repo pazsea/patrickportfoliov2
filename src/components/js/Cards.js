@@ -5,7 +5,7 @@ const Cards = props => {
     <div className="container-all">
       <img src={props.url} alt={props.alt} />
       <h3>{props.text}</h3>
-      <button>Read More...</button>
+      <button className="readmore">Read More...</button>
     </div>
   );
 };
