@@ -13,12 +13,14 @@ class Welcome extends Component {
             </div>
             <div className="picture">
               <img
-              className="avatarme"
-                src={require("../pics/meavatar.jpg")}
+                className="avatarme"
+                src={require("../pics/meavatar.png")}
                 alt="Patrick Sjöberg"
               />
             </div>
-            <div className="work__title"><p>Front End Developer | Ninja Warrior | Citizen </p></div>
+            <div className="work__title">
+              <p>Front End Developer | Ninja Warrior | Citizen </p>
+            </div>
             <div className="contact__div">
               <div className="contact__img">
                 <i className="fab fa-github fa-4x" />
@@ -26,8 +28,21 @@ class Welcome extends Component {
                 <i className="fab fa-linkedin fa-4x" />
               </div>
             </div>
-            <div className="arrow__container" ><div className="arrow"></div></div>
-            
+            <div className="arrow__container">
+              <div className="arrow" />
+            </div>
+          </div>
+
+          <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop">
+              <div class="wave waveTop" />
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+              <div class="wave waveMiddle" />
+            </div>
+            <div class="waveWrapperInner bgBottom">
+              <div class="wave waveBottom" />
+            </div>
           </div>
         </section>
       </Element>
