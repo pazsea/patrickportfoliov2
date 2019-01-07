@@ -1,3 +1,31 @@
-h1 {
-    margin: 0 auto;
+.two {
+  background-image: linear-gradient(#fdfdfd 20%, #44ebf7 80%);
+}
+
+.aboutContainer {
+  width: 95%;
+  height: 500px;
+  border: 2px solid red;
+  margin: 10% auto;
+  display: flex;
+
+}
+
+.bubbleText {
+  flex: 1;
+  border: 1px solid blue;
+}
+
+.bubbleContainer {
+  flex: 1;
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.bubbleContainer div {
+  width: 50%;
+  border: 1px solid orangered;
+  
 }

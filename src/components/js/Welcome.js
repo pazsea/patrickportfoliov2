@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
 import "../css/welcome.css";
 
 class Welcome extends Component {
   render() {
     return (
       <Element name="welcome">
-        <section>
+        <section className="one">
           <div className="welcomeall">
             <div className="greeting">
               <h1>Hi! I am Patrick.</h1>
@@ -23,14 +23,22 @@ class Welcome extends Component {
             </div>
             <div className="contact__div">
               <div className="contact__img">
-                <i className="fab fa-github fa-4x" />
-                <i className="fab fa-facebook fa-4x" />
-                <i className="fab fa-linkedin fa-4x" />
+                <i className="fab fa-github fa-3x" />
+                <i className="fab fa-facebook fa-3x" />
+                <i className="fab fa-linkedin fa-3x" />
               </div>
             </div>
-            <div className="arrow__container">
-              <div className="arrow" />
-            </div>
+            <Link
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <div className="arrow__container">
+              <i class="fas fa-arrow-down fa-2x"></i>
+              </div>
+            </Link>
           </div>
 
           <div class="waveWrapper waveAnimation">

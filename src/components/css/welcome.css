@@ -1,4 +1,4 @@
-section {
+.one {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,6 +17,7 @@ section {
   font-weight: 600;
   color: white;
   word-spacing: 1em;
+  font-size: 120%;
   padding-bottom:5%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -31,6 +32,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
+  font-size: 110%;
   font-style: italic;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -46,27 +48,16 @@ section {
   padding:5%;
 }
 
-.arrow {
-  box-sizing: border-box;
-  height: 40px;
-  width: 40px;
-  margin-top: 10%;
-  border-style: solid;
-  border-color: black;
-  border-width: 0px 1px 1px 0px;
-  transform: rotate(45deg);
-  transition: border-width 150ms ease-in-out;
-}
-
-.arrow:hover {
-  border-bottom-width: 4px;
-  border-right-width: 4px;
-}
 
 .arrow__container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.arrow__container:hover {
+  color: gold;
+  cursor: pointer;
 }
 
 @keyframes move_wave {
@@ -98,7 +89,7 @@ section {
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #e2ebf0 20%, #cfd9df 80%);
+  background-image: linear-gradient(to top, #f0e8e5 20%, #97c1f8 80%);
 }
 .bgTop {
   z-index: 15;
