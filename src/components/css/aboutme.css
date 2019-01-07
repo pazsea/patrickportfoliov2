@@ -1,11 +1,12 @@
 .two {
   background-image: linear-gradient(#fdfdfd 20%, #44ebf7 80%);
+  min-height: fit-content;
+  height: 100%;
 }
 
 .aboutContainer {
   width: 95%;
-  height: 500px;
-  border: 2px solid red;
+  height: fit-content;
   margin: 10% auto;
   display: flex;
 
@@ -19,13 +20,18 @@
 .bubbleContainer {
   flex: 1;
   border: 1px solid green;
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
 
 }
 
 .bubbleContainer div {
+  border: 2px solid pink;
   width: 50%;
-  border: 1px solid orangered;
-  
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.bubblesImg {
+  padding: 10%;
 }

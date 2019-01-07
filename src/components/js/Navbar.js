@@ -21,7 +21,7 @@ class Nav extends Component {
                 offset={0}
                 duration={500}
               >
-                <a>
+                <a> 
                   <img src={require("../pics/logo.svg")} />
                 </a>
               </Link>

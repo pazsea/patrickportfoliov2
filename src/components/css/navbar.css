@@ -8,6 +8,7 @@
   padding: 6px;
   border-bottom: 2px solid lightgrey;
 
+
 }
 
 .toolbar__navigation {
@@ -15,6 +16,7 @@
   height: 100%;
   align-items: center;
   padding: 0 1rem;
+  z-index: 50;
 }
 
 .toolbar__logo {
