@@ -32,7 +32,7 @@ class Welcome extends Component {
               to="aboutme"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-115} 
               duration={500}
             >
               <div className="arrow__container">
@@ -60,23 +60,4 @@ class Welcome extends Component {
 
 export default Welcome;
 
-{
-  /* <div id="container">
-<h1>Hi! I am Patrick!</h1>
-<img src={require("../pics/meavatar.jpg")} alt="Patrick Sjöberg" />
-</div>
-<div id="title">
-<p>Front End Developer | Ninja Warrior | Citizen </p>
-</div>
-<div id="contacts">
-<div className="contImg">
-  <i className="fab fa-github" />
-</div>
-<div className="contImg">
-  <i className="fab fa-facebook" />
-</div>
-<div className="contImg">
-  <i className="fab fa-linkedin" />
-</div>
-</div> */
-}
+

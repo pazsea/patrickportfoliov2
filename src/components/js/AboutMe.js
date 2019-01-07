@@ -63,7 +63,7 @@ const AboutMe = () => (
           </div>
           <div style={{ position: "relative" }}>
             <i
-              class="fab fa-css3 fa-7x"
+              class="fab fa-css3 fa-6x"
               style={{ margin: "auto", color: "blue" }}
             />
 
@@ -82,7 +82,7 @@ const AboutMe = () => (
           </div>
           <div style={{ position: "relative" }}>
             <i
-              class="fab fa-js-square fa-7x"
+              class="fab fa-js-square fa-6x"
               style={{ margin: "auto", color: "#f7df1e " }}
             />
 

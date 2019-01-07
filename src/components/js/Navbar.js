@@ -30,12 +30,12 @@ class Nav extends Component {
             <div className="toolbar__navigation-items">
               <ul>
                 <li>
-                  <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500}>
+                  <Link to="aboutme" spy={true} smooth={true} offset={-115} duration={500}>
                     <a>About Me</a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
+                  <Link to="portfolio" spy={true} smooth={true} offset={-115} duration={500}>
                     <a>Portfolio</a>
                   </Link>
                 </li>

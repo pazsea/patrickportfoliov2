@@ -2,6 +2,7 @@
   background-image: linear-gradient(#fdfdfd 20%, #44ebf7 80%);
   min-height: fit-content;
   height: 100%;
+  align-items: center;
 }
 
 .aboutContainer {
@@ -9,6 +10,7 @@
   height: fit-content;
   margin: 10% auto;
   display: flex;
+  border: 2px solid red;
 }
 
 .bubbleText {
@@ -47,3 +49,10 @@
 .bubblesImg {
   padding: 10%;
 }
+
+@media (max-width: 1050px) {
+  .aboutContainer {
+     flex-wrap: wrap;
+     flex-direction: column;
+    }
+  }
