@@ -9,12 +9,26 @@
   height: fit-content;
   margin: 10% auto;
   display: flex;
-
 }
 
 .bubbleText {
   flex: 1;
   border: 1px solid blue;
+  padding: 0 40px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.4em;
+}
+
+.bubbleText h2 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #00caa6;
+  font-style: italic;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  line-height: 54px;
+  text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .bubbleContainer {
@@ -22,11 +36,9 @@
   border: 1px solid green;
   flex-wrap: wrap;
   display: flex;
-
 }
 
 .bubbleContainer div {
-  border: 2px solid pink;
   width: 50%;
   flex-wrap: wrap;
   display: flex;

@@ -13,7 +13,16 @@ const AboutMe = () => (
   <Element name="aboutme">
     <section className="two">
       <div className="aboutContainer">
-        <div className="bubbleText" />
+        <div className="bubbleText">
+          <h2>About Me!</h2>
+          <p>
+            I am a student studying to become a Front End Developer. That's my
+            dream.<br /> From when I was very little I had computers as a passionate hobby buy now I am
+            working hard to fulfill this dream.<br />If you have any feedback for me
+            or if you have any projects you need help with, don't hesitate to
+            contact me!
+          </p>
+        </div>
         <div className="bubbleContainer">
           <div style={{ position: "relative" }}>
             <i
@@ -35,7 +44,10 @@ const AboutMe = () => (
             </div>
           </div>
           <div style={{ position: "relative" }}>
-            <i class="fab fa-react fa-7x" style={{ margin: "auto", color:"#00d8ff" }} />
+            <i
+              class="fab fa-react fa-7x"
+              style={{ margin: "auto", color: "#00d8ff" }}
+            />
             <div>
               <CircularProgressbar
                 className="bubblesImg"
@@ -50,7 +62,10 @@ const AboutMe = () => (
             </div>
           </div>
           <div style={{ position: "relative" }}>
-            <i class="fab fa-css3 fa-7x" style={{ margin: "auto", color:"blue" }} />
+            <i
+              class="fab fa-css3 fa-7x"
+              style={{ margin: "auto", color: "blue" }}
+            />
 
             <div>
               <CircularProgressbar
