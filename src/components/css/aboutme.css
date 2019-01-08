@@ -11,12 +11,12 @@
   height: fit-content;
   margin: 10% auto;
   display: flex;
-  border: 2px solid red;
+
 }
 
 .bubbleText {
   flex: 1;
-  border: 1px solid blue;
+
   padding: 0 40px;
   font-family: "Josefin Sans", sans-serif;
   line-height: 1.4em;
@@ -36,7 +36,7 @@
 
 .bubbleContainer {
   flex: 1;
-  border: 1px solid green;
+ 
   flex-wrap: wrap;
   display: flex;
 }
