@@ -59,6 +59,9 @@
 .spacer {
   flex: 1;
 }
+.active {
+	text-decoration: underline !important;
+}
 
 @media (max-width:853px) {
   .toolbar__navigation-items {

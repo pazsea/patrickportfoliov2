@@ -1,8 +1,9 @@
 .two {
   background-image: linear-gradient(#fdfdfd 20%, #44ebf7 80%);
+  height: 100vh;
   min-height: fit-content;
-  height: 100%;
   align-items: center;
+  padding-top: 1%;
 }
 
 .aboutContainer {
@@ -38,7 +39,6 @@
   border: 1px solid green;
   flex-wrap: wrap;
   display: flex;
-  
 }
 
 .bubbleContainer div {
@@ -54,13 +54,13 @@
 
 @media (max-width: 1050px) {
   .aboutContainer {
-     flex-wrap: wrap;
-     flex-direction: column;
-    }
+    flex-wrap: wrap;
+    flex-direction: column;
   }
+}
 
-  @media (max-width: 590px) {
-    .bubbleContainer div {
-      font-size: 10px;
-    }
+@media (max-width: 590px) {
+  .bubbleContainer div {
+    font-size: 10px;
   }
+}

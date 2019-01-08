@@ -8,8 +8,10 @@ import Backdrop from "./components/js/Backdrop";
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
   };
+
+
 
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
@@ -25,7 +27,9 @@ class App extends Component {
 
   render() {
     let backdrop;
+    
 
+ 
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backDropClickHandler} />;
     }

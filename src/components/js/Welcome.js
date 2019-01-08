@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Element, Link } from "react-scroll";
 import "../css/welcome.css";
 
+
 class Welcome extends Component {
   render() {
     return (
@@ -13,7 +14,7 @@ class Welcome extends Component {
             </div>
             <div className="picture">
               <img
-                className="avatarme"
+                id="avatarme"
                 src={require("../pics/meavatar.png")}
                 alt="Patrick Sjöberg"
               />
@@ -32,7 +33,7 @@ class Welcome extends Component {
               to="aboutme"
               spy={true}
               smooth={true}
-              offset={-115} 
+              offset={0} 
               duration={500}
             >
               <div className="arrow__container">

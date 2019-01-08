@@ -16,7 +16,7 @@ class Nav extends Component {
             <div className="toolbar__logo">
               <Link
                 to="welcome"
-                spy={true}
+                
                 smooth={true}
                 offset={0}
                 duration={500}
@@ -30,18 +30,18 @@ class Nav extends Component {
             <div className="toolbar__navigation-items">
               <ul>
                 <li>
-                  <Link to="aboutme" spy={true} smooth={true} offset={-115} duration={500}>
+                  <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500}>
                     <a>About Me</a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="portfolio" spy={true} smooth={true} offset={-115} duration={500}>
+                  <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
                     <a>Portfolio</a>
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="contact"  spy={true}smooth={true} offset={0} duration={500}>
+                  <Link to="contact"  spy={true} smooth={true} offset={0} duration={500}>
                     <a>Contact</a>
                   </Link>
                 </li>
