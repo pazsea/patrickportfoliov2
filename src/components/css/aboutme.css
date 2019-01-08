@@ -38,12 +38,14 @@
   border: 1px solid green;
   flex-wrap: wrap;
   display: flex;
+  
 }
 
 .bubbleContainer div {
   width: 50%;
   flex-wrap: wrap;
   display: flex;
+  font-size: 15px;
 }
 
 .bubblesImg {
@@ -54,5 +56,11 @@
   .aboutContainer {
      flex-wrap: wrap;
      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 590px) {
+    .bubbleContainer div {
+      font-size: 10px;
     }
   }
