@@ -9,12 +9,12 @@ const sideDrawer = props => {
     drawerClasses = "side-drawer open";
   }
 
-  let close = props.click;
+  let close = props.close;
 
   return (
     <nav className={drawerClasses}>
       <ul>
-        <button className="close" onClick= {close}>
+        <button className="close" onClick={close}>
           <i class="fas fa-times-circle fa-3x" />
         </button>
         <li id="logo">
@@ -29,12 +29,12 @@ const sideDrawer = props => {
           offset={0}
           duration={500}
         >
-          <li onClick= {close}>
-            <a onClick= {close}>Home</a>
+          <li onClick={close}>
+            <a onClick={close}>Home</a>
           </li>
         </Link>
 
-        <li onClick= {close}>
+        <li onClick={close}>
           <Link
             activeClass="active"
             to="aboutme"
@@ -43,10 +43,10 @@ const sideDrawer = props => {
             offset={0}
             duration={500}
           >
-            <a onClick= {close}>About Me</a>
+            <a onClick={close}>About Me</a>
           </Link>
         </li>
-        <li onClick= {close}>
+        <li onClick={close}>
           <Link
             activeClass="active"
             to="portfolio"
@@ -55,10 +55,10 @@ const sideDrawer = props => {
             offset={0}
             duration={500}
           >
-            <a onClick= {close}>Portfolio</a>
+            <a onClick={close}>Portfolio</a>
           </Link>
         </li>
-        <li onClick= {close}>
+        <li onClick={close} onClick={props.rightDrawerClick}>
           <Link
             activeClass="active"
             to="Feedback"
@@ -66,8 +66,9 @@ const sideDrawer = props => {
             smooth={true}
             offset={0}
             duration={500}
+            onClick={props.rightDrawerClick}
           >
-            <a onClick= {close}>Feedback</a>
+            <a onClick={close}>Contact</a>
           </Link>
         </li>
       </ul>

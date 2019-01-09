@@ -14,14 +14,8 @@ class Nav extends Component {
               <DrawerToggleButton click={this.props.drawerClickHandler} />
             </div>
             <div className="toolbar__logo">
-              <Link
-                to="welcome"
-                
-                smooth={true}
-                offset={0}
-                duration={500}
-              >
-                <a> 
+              <Link to="welcome" smooth={true} offset={0} duration={500}>
+                <a>
                   <img src={require("../pics/logo.svg")} />
                 </a>
               </Link>
@@ -30,18 +24,37 @@ class Nav extends Component {
             <div className="toolbar__navigation-items">
               <ul>
                 <li>
-                  <Link to="aboutme" spy={true} smooth={true} offset={0} duration={500}>
+                  <Link
+                    to="aboutme"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
                     <a>About Me</a>
                   </Link>
                 </li>
                 <li>
-                  <Link to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
+                  <Link
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
                     <a>Portfolio</a>
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="contact"  spy={true} smooth={true} offset={0} duration={500}>
+                  <Link
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    onClick={this.props.rightDrawerClick}
+                  >
                     <a>Contact</a>
                   </Link>
                 </li>
