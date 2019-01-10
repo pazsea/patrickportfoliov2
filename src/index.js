@@ -10,19 +10,21 @@ import * as serviceWorker from "./serviceWorker";
 const projects = [
   {
     id: "1",
-    head: "My first Landing Page",
-    url: require("../src/components/pics/firstproject.png"),
-    alt: "ett",
-    text: "Ok, this is where I was 6 months ago. I created my first landing page and I was so excited about the hover effect over the button. You got to start somewhere.",
-    api_url: "https://api.github.com/repos/pazsea/patrickportfoliov2/stats/contributors"
-  },
-  {
-    id: "2",
     head: "My first portfolio website",
     url: require("../src/components/pics/myportfolio.png"),
     alt: "två",
     text: "After two monthts in school we got an big assignment. We created an portfolio page. Mine was done only in CSS, HTML and JS.",
-    api_url: "https://api.github.com/repos/pazsea/patrickportfoliov2/stats/contributors"
+  /*   api_url: "https://api.github.com/repos/pazsea/patrickportfolio/stats/contributors" */
+
+  },
+  {
+    id: "2",
+    head: "Chaweng Thai Wok",
+    url: require("../src/components/pics/chawengthaiwok.png"),
+    alt: "ett",
+    text: "I got an project working on an friends resturants homepage. I did this page using only HTML/CSS.",
+ /*    api_url: "https://api.github.com/repos/pazsea/chawengthaiwok/stats/contributors" */
+
   },
   {
     id: "3",
@@ -30,7 +32,7 @@ const projects = [
     url: require("../src/components/pics/quirepage.png"),
     alt: "tre",
     text: "This was our first group project. For this we had instruction to creat an fully fuctional text editor where the user could save, retrieve and marke notes in LS.",
-    api_url: "https://api.github.com/repos/pazsea/patrickportfoliov2/stats/contributors"
+/*     api_url: "https://api.github.com/repos/pazsea/patrickportfolio/stats/contributors" */
   },
 ];
 

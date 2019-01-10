@@ -48,7 +48,12 @@
 .contact__img {
   display: flex;
   justify-content: space-around;
-  padding:5%;
+  padding: 1% 0 4% 0;
+}
+
+.contact__img i {
+  margin-bottom: 5%;
+  color: black;
 }
 
 
@@ -56,11 +61,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.arrow__container i {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  margin-bottom: 1%;
 }
 
 .arrow__container:hover {
   color: gold;
   cursor: pointer;
+}
+
+
+
+.contact__img i:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 7px;
+  }
 }
 
 @keyframes move_wave {
@@ -74,6 +102,10 @@
     transform: translateX(-50%) translateZ(0) scaleY(1);
   }
 }
+
+
+
+
 
 /* WAVE ANIMATION */
 

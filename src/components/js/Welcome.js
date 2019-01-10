@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Element, Link } from "react-scroll";
 import "../css/welcome.css";
 
-
 class Welcome extends Component {
   render() {
     return (
@@ -24,20 +23,32 @@ class Welcome extends Component {
             </div>
             <div className="contact__div">
               <div className="contact__img">
-                <i className="fab fa-github fa-3x" />
-                <i className="fab fa-facebook fa-3x" />
-                <i className="fab fa-linkedin fa-3x" />
+                <a href="https://github.com/pazsea" target="_blank">
+                  <i className="fab fa-github fa-3x" />
+                </a>
+                <a
+                  href="https://www.facebook.com/patrick.sjoberg"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook fa-3x" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/patrick-sjoberg/"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin fa-3x" />
+                </a>
               </div>
             </div>
             <Link
               to="aboutme"
               spy={true}
               smooth={true}
-              offset={0} 
+              offset={0}
               duration={500}
             >
               <div className="arrow__container">
-              <i class="fas fa-arrow-down fa-2x"></i>
+                <i class="fas fa-arrow-down fa-2x" />
               </div>
             </Link>
           </div>
@@ -60,5 +71,3 @@ class Welcome extends Component {
 }
 
 export default Welcome;
-
-
