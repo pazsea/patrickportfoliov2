@@ -7,9 +7,6 @@
   height: 56px;
   padding: 6px;
   border-bottom: 2px solid lightgrey;
-  z-index: 0;
-
-
 }
 
 .toolbar__navigation {
@@ -23,7 +20,7 @@
   margin-left: 3rem;
 }
 
-.toolbar__logo img  {
+.toolbar__logo img {
   width: 50%;
 }
 
@@ -42,12 +39,10 @@
   text-transform: uppercase;
 }
 
-
 .toolbar__navigation a {
   color: black;
-  text-decoration: none;  
+  text-decoration: none;
   cursor: pointer;
-
 }
 
 .toolbar__navigation a:hover,
@@ -60,10 +55,10 @@
   flex: 1;
 }
 .active {
-	text-decoration: underline !important;
+  text-decoration: underline !important;
 }
 
-@media (max-width:853px) {
+@media (max-width: 853px) {
   .toolbar__navigation-items {
     display: none;
   }

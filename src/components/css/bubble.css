@@ -12,16 +12,19 @@
      * If you're not using "display: flex", you can remove this style.
      */
     width: 100%;
+
   }
   
   .CircularProgressbar .CircularProgressbar-path {
     stroke: #3e98c7;
     stroke-linecap: round;
     transition: stroke-dashoffset 0.5s ease 0s;
+    
   }
   
   .CircularProgressbar .CircularProgressbar-trail {
     stroke: #d6d6d6;
+    z-index:-1;
   }
   
   .CircularProgressbar .CircularProgressbar-text {
@@ -29,10 +32,12 @@
     font-size: 20px;
     dominant-baseline: middle;
     text-anchor: middle;
+    z-index:-1;
   }
   
   .CircularProgressbar .CircularProgressbar-background {
     fill: #d6d6d6;
+    z-index:-1;
   }
   
   /*
@@ -46,16 +51,20 @@
    */
   .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
     fill: #3e98c7;
+    z-index:-1;
   }
   
   .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
     fill: #fff;
+    z-index:-1;
   }
   
   .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
     stroke: #fff;
+    z-index:-1;
   }
   
   .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
     stroke: transparent;
+    z-index:-1;
   }

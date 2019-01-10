@@ -12,6 +12,7 @@
   margin: 10% auto;
   display: flex;
 
+
 }
 
 .bubbleText {
@@ -39,6 +40,7 @@
  
   flex-wrap: wrap;
   display: flex;
+
 }
 
 .bubbleContainer div {
@@ -47,6 +49,8 @@
   display: flex;
   font-size: 15px;
 }
+
+/* HÄÄÄÄR ÄR FELET */
 
 .bubblesImg {
   padding: 10%;
