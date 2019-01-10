@@ -29,7 +29,8 @@ class App extends Component {
     });
   };
 
-  backDropClickHandler = () => {
+  backDropClickHandler = (e) => {
+    e.preventDefault();
     this.setState({ sideDrawerOpen: false });
     this.setState({ rightDrawerOpen: false });
 
@@ -56,7 +57,7 @@ class App extends Component {
           rightDrawerClick={this.rightDrawerToggleClickHandler}
         />
         {backdrop}
-        <RightDrawer show={this.state.rightDrawerOpen} click={this.backDropClickHandler} rightDrawerClick={this.rightDrawerToggleClickHandler} />
+        <RightDrawer show={this.state.rightDrawerOpen} click={this.backDropClickHandler}  />
         {backdrop}
         <AboutMe />
         <Portfolio {...this.props} />
