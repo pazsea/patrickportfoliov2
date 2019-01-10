@@ -26,7 +26,7 @@ const AboutMe = () => (
           </p>
         </div>
         <div className="bubbleContainer">
-          <div style={{ position: "relative" }}>
+          <div>
             <i
               class="fab fa-html5 fa-6x"
               style={{ margin: "auto", color: "red" }}
@@ -46,7 +46,7 @@ const AboutMe = () => (
               />
             </div>
           </div>
-          <div style={{ position: "relative" }}>
+          <div>
             <i
               class="fab fa-react fa-7x"
               style={{ margin: "auto", color: "#00d8ff" }}
@@ -64,7 +64,7 @@ const AboutMe = () => (
               />
             </div>
           </div>
-          <div style={{ position: "relative" }}>
+          <div>
             <i
               class="fab fa-css3 fa-6x"
               style={{ margin: "auto", color: "blue" }}
@@ -83,7 +83,7 @@ const AboutMe = () => (
               />
             </div>
           </div>
-          <div style={{ position: "relative" }}>
+          <div>
             <i
               class="fab fa-js-square fa-6x"
               style={{ margin: "auto", color: "#f7df1e " }}
