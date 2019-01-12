@@ -15,41 +15,4 @@ const Portfolio = props => (
   </Element>
 );
 
-/* class Portfolio extends React.Component {
-
-
-    onEnterViewport() {
-    this.setState({
-      visible: true,
-    });
-  }
- 
-  onExitViewport() {
-    this.setState({
-      visible: false,
-    });
-  }
-
-  render() {
-        const {
-      visible,
-    } = this.state;
- 
-    return (
-      <Element name="portfolio">
-        <section className="three">
-          <ScrollTrigger onEnter={this.onEnterViewport} onExit={this.onExitViewport} >
-            {" "}
-            <div className={`container ${visible ? 'container-animate' : ''}`}>
-              {props.projects.map(project => (
-                <Cards {...project} key={project.id} />
-              ))}
-            </div>
-          </ScrollTrigger>
-        </section>
-      </Element>
-    );
-  }
-} */
-
 export default Portfolio;

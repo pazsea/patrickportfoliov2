@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { Element, Link } from "react-scroll";
+import Pulse from "react-reveal/Pulse";
+import Jump from "react-reveal/Jump";
+import RubberBand from "react-reveal/RubberBand";
+import Reveal from 'react-reveal/Reveal';
 import "../css/welcome.css";
 
 class Welcome extends Component {
@@ -8,9 +12,12 @@ class Welcome extends Component {
       <Element name="welcome">
         <section className="one">
           <div className="welcomeall">
-            <div id="greeting">
-              <h1>Hi! I am Patrick.</h1>
-            </div>
+            <Jump>
+              <div id="greeting">
+                <h1>Hi! I am Patrick.</h1>
+              </div>
+            </Jump>
+            <Reveal effect="fadeInDown">
             <div className="picture">
               <img
                 id="avatarme"
@@ -18,33 +25,36 @@ class Welcome extends Component {
                 alt="Patrick Sjöberg"
               />
             </div>
-            <div className="work__title">
-              <p>Front End Developer | Ninja Warrior | Citizen </p>
-            </div>
-            <div className="contact__div">
-              <div className="contact__img">
-                <a href="https://github.com/pazsea" target="_blank">
-                  <i className="fab fa-github fa-3x" />
-                </a>
-                <a
-                  href="https://www.facebook.com/patrick.sjoberg"
-                  target="_blank"
-                >
-                  <i className="fab fa-facebook fa-3x" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/patrick-sjoberg/"
-                  target="_blank"
-                >
-                  <i className="fab fa-linkedin fa-3x" />
-                </a>
-                <a
-                  href="mailto:patrick.sjoberg@live.se"
-
-                >
-                  <i className="fas fa-envelope fa-3x" />
-                </a>
+            </Reveal>
+            <RubberBand>
+              <div className="work__title">
+                <p>Front End Developer | Ninja Warrior | Citizen </p>
               </div>
+            </RubberBand>
+
+            <div className="contact__div">
+              <Pulse>
+                <div className="contact__img">
+                  <a href="https://github.com/pazsea" target="_blank">
+                    <i className="fab fa-github fa-3x" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/patrick.sjoberg"
+                    target="_blank"
+                  >
+                    <i className="fab fa-facebook fa-3x" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/patrick-sjoberg/"
+                    target="_blank"
+                  >
+                    <i className="fab fa-linkedin fa-3x" />
+                  </a>
+                  <a href="mailto:patrick.sjoberg@live.se">
+                    <i className="fas fa-envelope fa-3x" />
+                  </a>
+                </div>
+              </Pulse>
             </div>
             <Link
               to="aboutme"
