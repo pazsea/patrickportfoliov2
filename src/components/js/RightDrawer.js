@@ -13,7 +13,7 @@ const RightDrawer = props => {
   return (
     <form className={drawerClasseses}>
       <ul class="form-style-1">
-      <button className="close" onClick={props.click}>
+      <button className="close2" onClick={props.click}>
           <i class="fas fa-times-circle fa-3x" />
         </button>
         <li>

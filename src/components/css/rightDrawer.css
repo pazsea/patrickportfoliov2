@@ -99,6 +99,16 @@ select{
 .form-style-1 .required{
 	color:red;
 }
+
+.close2 {
+	background: none;
+	border: none;
+	margin: 0;
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	cursor: pointer;
+  }
   
 /*   
   @media (min-width: 853px) {
