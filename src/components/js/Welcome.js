@@ -3,7 +3,7 @@ import { Element, Link } from "react-scroll";
 import Pulse from "react-reveal/Pulse";
 import Jump from "react-reveal/Jump";
 import RubberBand from "react-reveal/RubberBand";
-import Reveal from 'react-reveal/Reveal';
+import Reveal from "react-reveal/Reveal";
 import "../css/welcome.css";
 
 class Welcome extends Component {
@@ -18,13 +18,13 @@ class Welcome extends Component {
               </div>
             </Jump>
             <Reveal effect="fadeInDown">
-            <div className="picture">
-              <img
-                id="avatarme"
-                src={require("../pics/meavatar.png")}
-                alt="Patrick Sjöberg"
-              />
-            </div>
+              <div className="picture">
+                <img
+                  id="avatarme"
+                  src={require("../pics/meavatar.png")}
+                  alt="Patrick Sjöberg"
+                />
+              </div>
             </Reveal>
             <RubberBand>
               <div className="work__title">

@@ -23,12 +23,10 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-top: 0%;
   height: fit-content;
-
 }
 
 #avatarme {
   max-width: 150px;
-
 }
 
 .work__title {
@@ -57,12 +55,10 @@
   color: black;
 }
 
-
 .arrow__container {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .arrow__container i {
@@ -76,15 +72,14 @@
   cursor: pointer;
 }
 
-
-
 .contact__img i:hover {
   color: goldenrod;
   cursor: pointer;
 }
 
 @keyframes MoveUpDown {
-  0%, 100% {
+  0%,
+  100% {
     bottom: 0;
   }
   50% {
@@ -109,9 +104,7 @@
     font-size: 0.7em;
     margin-left: 20%;
   }
-
 }
-
 
 @media (max-width: 1024px) {
   .arrow__container i {
@@ -119,7 +112,6 @@
   }
   #avatarme {
     max-width: 200px;
-  
   }
 }
 
@@ -134,10 +126,6 @@
     font-size: 3em;
   }
 }
-
-
-
-
 
 /* WAVE ANIMATION */
 

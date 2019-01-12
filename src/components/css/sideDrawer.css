@@ -64,20 +64,16 @@
   color: rgb(211, 43, 43);
 }
 
-
 @media (min-width: 853px) {
-    .side-drawer {
-        display: none;
-        
-    }
+  .side-drawer {
+    display: none;
+  }
 }
 
 @media (min-width: 853px) {
-    .toolbar__toggle-button {
-        display: none;
-    }
-
-    
+  .toolbar__toggle-button {
+    display: none;
+  }
 }
 
 /* @media (max-width: 853px) {

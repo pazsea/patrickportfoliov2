@@ -11,8 +11,6 @@
   height: fit-content;
   margin: 10% auto;
   display: flex;
-
-
 }
 
 .bubbleText {
@@ -37,10 +35,9 @@
 
 .bubbleContainer {
   flex: 1;
- 
+
   flex-wrap: wrap;
   display: flex;
-
 }
 
 .bubbleContainer div {

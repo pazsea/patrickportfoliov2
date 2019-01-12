@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
 import CircularProgressbar from "react-circular-progressbar";
-import Rotate from 'react-reveal/Rotate';
-import Zoom from 'react-reveal/Zoom';
-
+import Rotate from "react-reveal/Rotate";
+import Zoom from "react-reveal/Zoom";
 
 import "../css/bubble.css";
 import "../css/aboutme.css";
@@ -19,7 +18,7 @@ class AboutMe extends Component {
       <Element name="aboutme">
         <section className="two">
           <div className="aboutContainer">
-          <Rotate top left>
+            <Rotate top left>
               <div className="bubbleText">
                 <h2>About Me!</h2>
                 <p>
