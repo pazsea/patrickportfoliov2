@@ -8,7 +8,7 @@ class Welcome extends Component {
       <Element name="welcome">
         <section className="one">
           <div className="welcomeall">
-            <div className="greeting">
+            <div id="greeting">
               <h1>Hi! I am Patrick.</h1>
             </div>
             <div className="picture">
@@ -37,6 +37,12 @@ class Welcome extends Component {
                   target="_blank"
                 >
                   <i className="fab fa-linkedin fa-3x" />
+                </a>
+                <a
+                  href="mailto:patrick.sjoberg@live.se"
+
+                >
+                  <i className="fas fa-envelope fa-3x" />
                 </a>
               </div>
             </div>

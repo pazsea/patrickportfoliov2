@@ -8,52 +8,32 @@ const RightDrawer = props => {
     drawerClasseses = "right-drawer open";
   }
 
-
-
   return (
-    <form className={drawerClasseses}>
-      <ul class="form-style-1">
+    <div className={drawerClasseses}>
       <button className="close2" onClick={props.click}>
-          <i class="fas fa-times-circle fa-3x" />
-        </button>
-        <li>
-          <label>
-            Full Name <span class="required">*</span>
-          </label>
-          <input
-            type="text"
-            name="field1"
-            class="field-divided"
-            placeholder="First"
-          />{" "}
-          <input
-            type="text"
-            name="field2"
-            class="field-divided"
-            placeholder="Last"
-          />
-        </li>
-        <li>
-          <label>
-            Email <span class="required">*</span>
-          </label>
-          <input type="email" name="field3" class="field-long" />
-        </li>
-        <li>
-          <label>
-            Your Message <span class="required">*</span>
-          </label>
-          <textarea
-            name="field5"
-            id="field5"
-            class="field-long field-textarea"
-          />
-        </li>
-        <li>
-          <input type="submit" value="Submit" />
-        </li>
-      </ul>
-    </form>
+        <i class="fas fa-times-circle fa-3x " />
+      </button>
+      <img src={require("../pics/logo.svg")} />
+
+      <a href="https://github.com/pazsea" target="_blank">
+        Github
+        <i className="fab fa-github" />
+      </a>
+
+      <a href="https://www.facebook.com/patrick.sjoberg" target="_blank">
+        Facebook
+        <i className="fab fa-facebook" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/patrick-sjoberg/" target="_blank">
+        Linkedin
+        <i className="fab fa-linkedin" />
+      </a>
+      <a href="mailto:patrick.sjoberg@live.se">
+        Email
+        <i className="fas fa-envelope" />
+      </a>
+    </div>
   );
 };
 

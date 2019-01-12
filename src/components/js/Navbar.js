@@ -28,7 +28,7 @@ class Nav extends Component {
                     to="aboutme"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-10}
                     duration={500}
                   >
                     <a>About Me</a>
@@ -39,7 +39,7 @@ class Nav extends Component {
                     to="portfolio"
                     spy={true}
                     smooth={true}
-                    offset={0}
+                    offset={-10}
                     duration={500}
                   >
                     <a>Portfolio</a>
@@ -51,8 +51,6 @@ class Nav extends Component {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={0}
-                    duration={500}
                     onClick={this.props.rightDrawerClick}
                   >
                     <a>Contact</a>
