@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Element, Link } from "react-scroll";
 import Pulse from "react-reveal/Pulse";
 import Jump from "react-reveal/Jump";
-import RubberBand from "react-reveal/RubberBand";
+import Fade from "react-reveal/Fade";
 import Reveal from "react-reveal/Reveal";
 import "../css/welcome.css";
 
@@ -26,35 +26,37 @@ class Welcome extends Component {
                 />
               </div>
             </Reveal>
-            <RubberBand>
+            <Fade bottom>
               <div className="work__title">
                 <p>Front End Developer | Ninja Warrior | Citizen </p>
               </div>
-            </RubberBand>
+            </Fade>
 
             <div className="contact__div">
-              <Pulse>
-                <div className="contact__img">
-                  <a href="https://github.com/pazsea" target="_blank">
-                    <i className="fab fa-github fa-3x" />
-                  </a>
-                  <a
-                    href="https://www.facebook.com/patrick.sjoberg"
-                    target="_blank"
-                  >
-                    <i className="fab fa-facebook fa-3x" />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/patrick-sjoberg/"
-                    target="_blank"
-                  >
-                    <i className="fab fa-linkedin fa-3x" />
-                  </a>
-                  <a href="mailto:patrick.sjoberg@live.se">
-                    <i className="fas fa-envelope fa-3x" />
-                  </a>
-                </div>
-              </Pulse>
+              <Fade bottom>
+                <Pulse>
+                  <div className="contact__img">
+                    <a href="https://github.com/pazsea" target="_blank">
+                      <i className="fab fa-github fa-3x" />
+                    </a>
+                    <a
+                      href="https://www.facebook.com/patrick.sjoberg"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook fa-3x" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/patrick-sjoberg/"
+                      target="_blank"
+                    >
+                      <i className="fab fa-linkedin fa-3x" />
+                    </a>
+                    <a href="mailto:patrick.sjoberg@live.se">
+                      <i className="fas fa-envelope fa-3x" />
+                    </a>
+                  </div>
+                </Pulse>
+              </Fade>
             </div>
             <Link
               to="aboutme"
