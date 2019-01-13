@@ -13,9 +13,10 @@ class Nav extends Component {
           </div>
           <div className="toolbar__logo">
             <Link to="welcome" smooth={true} offset={0} duration={500}>
-              <a>
-                <img src={require("../pics/logo.svg")} />
-              </a>
+              <img
+                src={require("../pics/logo.svg")}
+                alt="My signature in Navbar"
+              />
             </Link>
           </div>
           <div className="spacer" />
@@ -29,7 +30,7 @@ class Nav extends Component {
                   offset={-10}
                   duration={500}
                 >
-                  <a>About Me</a>
+                  About Me
                 </Link>
               </li>
               <li>
@@ -40,7 +41,7 @@ class Nav extends Component {
                   offset={-10}
                   duration={500}
                 >
-                  <a>Portfolio</a>
+                  Portfolio
                 </Link>
               </li>
 
@@ -51,7 +52,7 @@ class Nav extends Component {
                   smooth={true}
                   onClick={this.props.rightDrawerClick}
                 >
-                  <a>Contact</a>
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -63,17 +64,3 @@ class Nav extends Component {
 }
 
 export default Nav;
-
-{
-  /* <Link
-activeClass="active"
-to="contact"
-spy={true}
-smooth={true}
-offset={0}
-duration={500}
-onSetActive={this.handleSetActive}
->
-Contact
-</Link> */
-}

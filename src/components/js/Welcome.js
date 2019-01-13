@@ -36,18 +36,27 @@ class Welcome extends Component {
               <Fade bottom>
                 <Pulse>
                   <div className="contact__img">
-                    <a href="https://github.com/pazsea" target="_blank">
+                    <a
+                      href="https://github.com/pazsea"
+                      target="_blank"
+                      without="true"
+                      rel="noopener noreferrer"
+                    >
                       <i className="fab fa-github fa-3x" />
                     </a>
                     <a
                       href="https://www.facebook.com/patrick.sjoberg"
                       target="_blank"
+                      without="true"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-facebook fa-3x" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/patrick-sjoberg/"
                       target="_blank"
+                      without="true"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-linkedin fa-3x" />
                     </a>
@@ -66,20 +75,20 @@ class Welcome extends Component {
               duration={500}
             >
               <div className="arrow__container">
-                <i class="fas fa-arrow-down fa-2x" />
+                <i className="fas fa-arrow-down fa-2x" />
               </div>
             </Link>
           </div>
 
-          <div class="waveWrapper waveAnimation">
-            <div class="waveWrapperInner bgTop">
-              <div class="wave waveTop" />
+          <div className="waveWrapper waveAnimation">
+            <div className="waveWrapperInner bgTop">
+              <div className="wave waveTop" />
             </div>
-            <div class="waveWrapperInner bgMiddle">
-              <div class="wave waveMiddle" />
+            <div className="waveWrapperInner bgMiddle">
+              <div className="wave waveMiddle" />
             </div>
-            <div class="waveWrapperInner bgBottom">
-              <div class="wave waveBottom" />
+            <div className="waveWrapperInner bgBottom">
+              <div className="wave waveBottom" />
             </div>
           </div>
         </section>

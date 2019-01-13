@@ -12,21 +12,39 @@ const RightDrawer = props => {
   return (
     <div className={drawerClasseses}>
       <button className="close2" onClick={props.click}>
-        <i class="fas fa-times-circle fa-3x " />
+        <i className="fas fa-times-circle fa-3x " />
       </button>
-      <img src={require("../pics/logo.svg")} />
+      <img
+        src={require("../pics/logo.svg")}
+        alt="My Signature in rightDrawer"
+      />
       <Fade bottom>
-        <a href="https://github.com/pazsea" target="_blank">
+        <a
+          href="https://github.com/pazsea"
+          target="_blank"
+          without="true"
+          rel="noopener noreferrer"
+        >
           Github
           <i className="fab fa-github" />
         </a>
 
-        <a href="https://www.facebook.com/patrick.sjoberg" target="_blank">
+        <a
+          href="https://www.facebook.com/patrick.sjoberg"
+          target="_blank"
+          without="true"
+          rel="noopener noreferrer"
+        >
           Facebook
           <i className="fab fa-facebook" />
         </a>
 
-        <a href="https://www.linkedin.com/in/patrick-sjoberg/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/patrick-sjoberg/"
+          target="_blank"
+          without="true"
+          rel="noopener noreferrer"
+        >
           Linkedin
           <i className="fab fa-linkedin" />
         </a>

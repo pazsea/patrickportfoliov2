@@ -37,7 +37,7 @@ class AboutMe extends Component {
             <div className="bubbleContainer">
               <div>
                 <i
-                  class="fab fa-html5 fa-6x"
+                  className="fab fa-html5 fa-6x"
                   style={{ margin: "auto", color: "red" }}
                 />
                 <Zoom left>
@@ -59,7 +59,7 @@ class AboutMe extends Component {
               </div>
               <div>
                 <i
-                  class="fab fa-react fa-7x"
+                  className="fab fa-react fa-7x"
                   style={{ margin: "auto", color: "#00d8ff" }}
                 />
                 <Zoom left>
@@ -81,7 +81,7 @@ class AboutMe extends Component {
               </div>
               <div>
                 <i
-                  class="fab fa-css3 fa-6x"
+                  className="fab fa-css3 fa-6x"
                   style={{ margin: "auto", color: "blue" }}
                 />
                 <Zoom left>
@@ -101,7 +101,7 @@ class AboutMe extends Component {
               </div>
               <div>
                 <i
-                  class="fab fa-js-square fa-6x"
+                  className="fab fa-js-square fa-6x"
                   style={{ margin: "auto", color: "#f7df1e " }}
                 />
                 <Zoom left>

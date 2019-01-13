@@ -22,16 +22,18 @@ class Cards extends Component {
           <p className="text">{this.props.text}</p>
           <p />
           <div className="commitDate">
-            Lastest commit made:<br />
+            Lastest commit made:
+            <br />
             <em style={{ color: "whitesmoke" }}>2018-02-13 </em>{" "}
-            <i class="fab fa-github" /> {/* {this.state.commit} */}{" "}
+            <i className="fab fa-github" /> {/* {this.state.commit} */}{" "}
           </div>
           <div className="button">
             <a
               href={this.props.button_url}
               target="_blank"
-              class="button"
               className="readmore"
+              without="true"
+              rel="noopener noreferrer"
             >
               View Github repo
             </a>

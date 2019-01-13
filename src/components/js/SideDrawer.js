@@ -16,10 +16,13 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
         <button className="close" onClick={close}>
-          <i class="fas fa-times-circle fa-3x" />
+          <i className="fas fa-times-circle fa-3x" />
         </button>
         <li id="logo">
-          <img src={require("../pics/logo.svg")} />
+          <img
+            src={require("../pics/logo.svg")}
+            alt="My Signature in Sidedrawer"
+          />
         </li>
         <Fade bottom>
           <Link
@@ -29,10 +32,9 @@ const sideDrawer = props => {
             smooth={true}
             offset={0}
             duration={500}
+            onClick={close}
           >
-            <li onClick={close}>
-              <a onClick={close}>Home</a>
-            </li>
+            <li onClick={close}>Home</li>
           </Link>
 
           <li onClick={close}>
@@ -43,8 +45,9 @@ const sideDrawer = props => {
               smooth={true}
               offset={0}
               duration={500}
+              onClick={close}
             >
-              <a onClick={close}>About Me</a>
+              About Me
             </Link>
           </li>
           <li onClick={close}>
@@ -55,11 +58,12 @@ const sideDrawer = props => {
               smooth={true}
               offset={0}
               duration={500}
+              onClick={close}
             >
-              <a onClick={close}>Portfolio</a>
+              Portfolio
             </Link>
           </li>
-          <li onClick={close} onClick={props.rightDrawerClick}>
+          <li onClick={props.rightDrawerClick}>
             <Link
               activeClass="active"
               to="Feedback"
@@ -69,7 +73,7 @@ const sideDrawer = props => {
               duration={500}
               onClick={props.rightDrawerClick}
             >
-              <a onClick={close}>Contact</a>
+              Contact
             </Link>
           </li>
         </Fade>
