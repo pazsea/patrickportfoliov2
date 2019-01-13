@@ -49,18 +49,14 @@
   cursor: pointer;
 }
 
-.toolbar__navigation a:hover,
-.toolbar__navigation a:active {
-  color: orange;
-  text-decoration: underline;
-}
-
 .spacer {
   flex: 1;
 }
 .active {
   text-decoration: underline !important;
   font-weight: 700;
+  font-style: italic;
+  color: rgb(74, 74, 233) !important;
 }
 
 @media (max-width: 853px) {

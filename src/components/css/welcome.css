@@ -30,6 +30,7 @@
 }
 
 .work__title {
+  text-align: center;
   width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;

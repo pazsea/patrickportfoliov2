@@ -8,7 +8,7 @@ const projects = [
   {
     id: "1",
     head: "My first portfolio website",
-    url: require("../src/components/pics/myportfolio.png"),
+    url: require("../src/components/pics/myportfolio-min.png"),
     alt: "två",
     button_url: "https://github.com/pazsea/patrickportfolio",
     text:
@@ -19,7 +19,7 @@ const projects = [
   {
     id: "2",
     head: "Chaweng Thai Wok",
-    url: require("../src/components/pics/chawengthaiwok.png"),
+    url: require("../src/components/pics/chawengthaiwok-min.png"),
     alt: "ett",
     button_url: "https://github.com/pazsea/chawengthaiwok",
     text:
@@ -29,7 +29,7 @@ const projects = [
   {
     id: "3",
     head: "Our text editor",
-    url: require("../src/components/pics/quirepage.png"),
+    url: require("../src/components/pics/quirepage-min.png"),
     alt: "tre",
     button_url: "https://github.com/bayev/Taurus",
     text:

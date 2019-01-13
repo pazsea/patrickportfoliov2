@@ -21,14 +21,14 @@ class Welcome extends Component {
               <div className="picture">
                 <img
                   id="avatarme"
-                  src={require("../pics/meavatar.png")}
+                  src={require("../pics/meavatar-min.png")}
                   alt="Patrick Sjöberg"
                 />
               </div>
             </Reveal>
             <Fade bottom>
               <div className="work__title">
-                <p>Front End Developer | Ninja Warrior | Citizen </p>
+                <p>Front End Developer Student | Looking for internship</p>
               </div>
             </Fade>
 
