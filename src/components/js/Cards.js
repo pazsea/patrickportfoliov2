@@ -2,16 +2,17 @@ import React, { Component } from "react";
 import Flip from "react-reveal/Flip";
 
 class Cards extends Component {
-  /*   state = {   };
+  state = {};
 
   componentDidMount() {
     fetch(this.props.api_url)
-      .then((res) => res.json())
-      .then((json) => {
-        this.setState({commit: (json.commit.committer.date).intParse})
-
-      }); 
-  } */
+      .then(res => res.json())
+      .then(json => {
+        this.setState({
+          commit: json.commit.committer.date
+        });
+      });
+  }
 
   render() {
     return (
@@ -24,8 +25,8 @@ class Cards extends Component {
           <div className="commitDate">
             Lastest commit made:
             <br />
-            <em style={{ color: "whitesmoke" }}>2018-02-13 </em>{" "}
-            <i className="fab fa-github" /> {/* {this.state.commit} */}{" "}
+            <em style={{ color: "whitesmoke" }}>{this.state.commit} </em>
+            <i className="fab fa-github" />
           </div>
           <div className="button">
             <a
