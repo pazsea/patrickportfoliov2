@@ -25,7 +25,7 @@ class Cards extends Component {
           <div className="commitDate">
             Lastest commit made:
             <br />
-            <em style={{ color: "whitesmoke" }}>{this.state.commit} </em>
+            <em style={{ color: "gold" }}>{this.state.commit} </em>
             <i className="fab fa-github" />
           </div>
           <div className="button">
