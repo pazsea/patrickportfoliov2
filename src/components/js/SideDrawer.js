@@ -4,13 +4,11 @@ import Fade from "react-reveal/Fade";
 
 import "../css/sideDrawer.css";
 
-const sideDrawer = props => {
+const sideDrawer = ({ show, close, rightDrawerClick }) => {
   let drawerClasses = "side-drawer";
-  if (props.show) {
+  if (show) {
     drawerClasses = "side-drawer open";
   }
-
-  let close = props.close;
 
   return (
     <nav className={drawerClasses}>
@@ -63,7 +61,7 @@ const sideDrawer = props => {
               Portfolio
             </Link>
           </li>
-          <li onClick={props.rightDrawerClick}>
+          <li onClick={rightDrawerClick}>
             <Link
               activeClass="active"
               to="Feedback"
@@ -71,7 +69,7 @@ const sideDrawer = props => {
               smooth={true}
               offset={0}
               duration={500}
-              onClick={props.rightDrawerClick}
+              onClick={rightDrawerClick}
             >
               Contact
             </Link>

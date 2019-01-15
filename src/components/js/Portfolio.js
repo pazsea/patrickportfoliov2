@@ -3,11 +3,11 @@ import { Element } from "react-scroll";
 import Cards from "../js/Cards";
 import "../css/portfolio.css";
 
-const Portfolio = props => (
+const Portfolio = ({ projects }) => (
   <Element name="portfolio">
     <section className="three">
       <div className="container">
-        {props.projects.map(project => (
+        {projects.map(project => (
           <Cards {...project} key={project.id} />
         ))}
       </div>

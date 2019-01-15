@@ -128,12 +128,3 @@ class AboutMe extends Component {
 }
 
 export default AboutMe;
-
-/* const App = () => (
-  <div>
-    <Label>Basic example</Label>
-    <div >
-                <div>
-          <CircularProgressbar initialAnimation={true} percentage={percentage} text={`${percentage}%`} />
-          </div>
-    </div> */

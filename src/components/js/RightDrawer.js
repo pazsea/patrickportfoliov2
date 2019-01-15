@@ -3,15 +3,15 @@ import Fade from "react-reveal/Fade";
 
 import "../css/rightDrawer.css";
 
-const RightDrawer = props => {
+const RightDrawer = ({ click, show }) => {
   let drawerClasseses = "right-drawer";
-  if (props.show) {
+  if (show) {
     drawerClasseses = "right-drawer open";
   }
 
   return (
     <div className={drawerClasseses}>
-      <button className="close2" onClick={props.click}>
+      <button className="close2" onClick={click}>
         <i className="fas fa-times-circle fa-3x " />
       </button>
       <img

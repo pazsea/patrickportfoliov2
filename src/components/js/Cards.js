@@ -8,29 +8,34 @@ class Cards extends Component {
     fetch(this.props.api_url)
       .then(res => res.json())
       .then(json => {
+        //let cd = new Date(json.commit.committer.date).toLocaleString();
+        console.log(json);
         this.setState({
-          commit: json.commit.committer.date
+          commit: json.commit
+            ? new Date(json.commit.committer.date).toLocaleString()
+            : "2019-01-04 13:37"
         });
       });
   }
 
   render() {
+    const { url, alt, head, text, button_url } = this.props;
     return (
       <Flip left>
         <div className="container-all">
-          <img src={this.props.url} alt={this.props.alt} />
-          <h3>{this.props.head}</h3>
-          <p className="text">{this.props.text}</p>
+          <img src={url} alt={alt} />
+          <h3>{head}</h3>
+          <p className="text">{text}</p>
           <p />
           <div className="commitDate">
             Lastest commit made:
             <br />
-            <em style={{ color: "gold" }}>{this.state.commit} </em>
+            <em style={{ color: "gold" }}>{this.state.commit}</em>
             <i className="fab fa-github" />
           </div>
           <div className="button">
             <a
-              href={this.props.button_url}
+              href={button_url}
               target="_blank"
               className="readmore"
               without="true"
