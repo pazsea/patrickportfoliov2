@@ -3,7 +3,6 @@
   height: 100vh;
   min-height: fit-content;
   align-items: center;
-  padding-top: 1%;
 }
 
 .aboutContainer {
@@ -47,10 +46,50 @@
   font-size: 15px;
 }
 
-/* HÄÄÄÄR ÄR FELET */
+.innerText_one {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+}
 
+.inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
 .bubblesImg {
   padding: 10%;
+}
+
+.innerText_two {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.button_two {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 1%;
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.button_two:hover {
+  background-color: black;
+  color: gold;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 @media (max-width: 1050px) {
@@ -63,5 +102,12 @@
 @media (max-width: 590px) {
   .bubbleContainer div {
     font-size: 10px;
+  }
+  .inner {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .two {
+    padding-top: 1%;
   }
 }

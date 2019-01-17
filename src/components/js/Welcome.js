@@ -71,7 +71,7 @@ class Welcome extends Component {
               to="aboutme"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-60}
               duration={500}
             >
               <div className="arrow__container">

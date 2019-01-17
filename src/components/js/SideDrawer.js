@@ -31,6 +31,7 @@ const sideDrawer = ({ show, close, rightDrawerClick }) => {
             offset={0}
             duration={500}
             onClick={close}
+            title="Takes you back to the home section"
           >
             <li onClick={close}>Home</li>
           </Link>
@@ -44,6 +45,7 @@ const sideDrawer = ({ show, close, rightDrawerClick }) => {
               offset={0}
               duration={500}
               onClick={close}
+              title="A bit about me"
             >
               About Me
             </Link>
@@ -57,6 +59,7 @@ const sideDrawer = ({ show, close, rightDrawerClick }) => {
               offset={0}
               duration={500}
               onClick={close}
+              title="My projects I worked on"
             >
               Portfolio
             </Link>
@@ -70,6 +73,7 @@ const sideDrawer = ({ show, close, rightDrawerClick }) => {
               offset={0}
               duration={500}
               onClick={rightDrawerClick}
+              title="Choose any alternatives to contact me"
             >
               Contact
             </Link>

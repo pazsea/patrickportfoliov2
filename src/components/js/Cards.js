@@ -8,8 +8,6 @@ class Cards extends Component {
     fetch(this.props.api_url)
       .then(res => res.json())
       .then(json => {
-        //let cd = new Date(json.commit.committer.date).toLocaleString();
-        console.log(json);
         this.setState({
           commit: json.commit
             ? new Date(json.commit.committer.date).toLocaleString()
@@ -30,7 +28,7 @@ class Cards extends Component {
           <div className="commitDate">
             Lastest commit made:
             <br />
-            <em style={{ color: "gold" }}>{this.state.commit}</em>
+            <em style={{ color: "gold" }}>{this.state.commit} </em>
             <i className="fab fa-github" />
           </div>
           <div className="button">

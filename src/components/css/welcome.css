@@ -100,13 +100,13 @@
   }
 }
 
-@media (max-width: 330px) {
+@media (max-width: 411px) {
   .work__title {
     font-size: 0.7em;
     margin-left: 20%;
   }
   #avatarme {
-    width: 120px;
+    max-width: 140px !important;
   }
 }
 

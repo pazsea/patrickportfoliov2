@@ -16,7 +16,7 @@ class Nav extends Component {
             <Link to="welcome" smooth={true} offset={0} duration={500}>
               <img
                 src={require("../pics/logo.svg")}
-                alt="My signature in Navbar"
+                alt="My signature in Navbar that takes you back to the start section"
               />
             </Link>
           </div>
@@ -28,8 +28,9 @@ class Nav extends Component {
                   to="aboutme"
                   spy={true}
                   smooth={true}
-                  offset={-10}
+                  offset={-100}
                   duration={500}
+                  title="A bit about me"
                 >
                   About Me
                 </Link>
@@ -41,6 +42,7 @@ class Nav extends Component {
                   smooth={true}
                   offset={-10}
                   duration={500}
+                  title="My projects I worked on"
                 >
                   Portfolio
                 </Link>
@@ -52,6 +54,7 @@ class Nav extends Component {
                   spy={true}
                   smooth={true}
                   onClick={rightDrawerClick}
+                  title="Choose any alternatives to contact me"
                 >
                   Contact
                 </Link>

@@ -21,16 +21,35 @@ class AboutMe extends Component {
             <Rotate top left>
               <div className="bubbleText">
                 <h2>About Me!</h2>
-                <p>
-                  I am a student studying to become a Front End Developer.
-                  That's my dream.
-                  <br /> From when I was very little I had computers as a
-                  passionate hobby but now I am working hard to fulfill this
-                  dream.
-                  <br />
-                  If you have any feedback or if you have any projects you need
-                  help with, don't hesitate to contact me!
-                </p>
+                I am a student studying to become a Front End Developer. That's
+                my dream.
+                <br /> From when I was very little I had computers as a
+                passionate hobby but now I am working hard to fulfill this
+                dream.
+                <br />
+                If you have any feedback or if you have any projects you need
+                help with, don't hesitate to contact me!
+                <div className="inner">
+                  <blockquote className="innerText_one">
+                    By the way, this portfolio page is done completely in React
+                    and I did some awesome things coding the{" "}
+                    <span style={{ color: "red" }}>React</span> way!
+                    <br /> Please feel free to check out those coding solutions
+                    by clicking the button on the right!
+                  </blockquote>
+                  <div className="innerText_two">
+                    <a
+                      type="button"
+                      className="button_two"
+                      href="https://github.com/pazsea/patrickportfoliov2"
+                      target="_blank"
+                      without="true"
+                      rel="noopener noreferrer"
+                    >
+                      View my Github repo
+                    </a>
+                  </div>
+                </div>
               </div>
             </Rotate>
 
