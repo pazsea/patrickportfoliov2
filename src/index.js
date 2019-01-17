@@ -12,7 +12,7 @@ const projects = [
     alt: "två",
     button_url: "https://github.com/pazsea/patrickportfolio",
     text:
-      "After two monthts in school we got an big assignment. We created an portfolio page. Mine was done only in CSS, HTML and JS.",
+      "After two months in school, we got a big assignment. We created a portfolio page. Mine was done only in CSS, HTML, and JS.",
     api_url:
       "https://api.github.com/repos/pazsea/patrickportfolio/commits/master"
   },
@@ -23,7 +23,7 @@ const projects = [
     alt: "ett",
     button_url: "https://github.com/pazsea/chawengthaiwok",
     text:
-      "I got an project working on an friends resturants homepage. I did this page using only HTML/CSS.",
+      "I got a project working on a friends restaurants homepage. I did this page using only HTML/CSS.",
     api_url: "https://api.github.com/repos/pazsea/chawengthaiwok/commits/master"
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     alt: "tre",
     button_url: "https://github.com/bayev/Taurus",
     text:
-      "This was our first group project. For this we had instruction to creat an fully fuctional text editor where the user could save, retrieve and marke notes in LS.",
+      "This was our first group project. For this, we had instruction to create a fully functional text editor. With a save function in LS",
     api_url: "https://api.github.com/repos/bayev/Taurus/commits/master"
   }
 ];
