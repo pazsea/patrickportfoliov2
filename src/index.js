@@ -33,7 +33,7 @@ const projects = [
     alt: "tre",
     button_url: "https://github.com/bayev/Taurus",
     text:
-      "This was our first group project. For this, we had instruction to create a fully functional text editor. With a save function in LS",
+      "This was our first group project. For this, we had instruction to create a fully functional text editor. With a save function in LS.",
     api_url: "https://api.github.com/repos/bayev/Taurus/commits/master"
   }
 ];
