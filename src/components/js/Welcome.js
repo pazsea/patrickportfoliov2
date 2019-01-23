@@ -28,7 +28,8 @@ class Welcome extends Component {
             </Reveal>
             <Fade bottom>
               <div className="work__title">
-                <p>Front End Developer Student | Looking for internship</p>
+                <p>Front End Developer Student</p>
+                <p>| Seeking internship in autumn 2019 |</p>
               </div>
             </Fade>
 
@@ -75,7 +76,7 @@ class Welcome extends Component {
               duration={500}
             >
               <div className="arrow__container">
-                <i className="fas fa-arrow-down fa-2x" />
+                <i className="fas fa-arrow-down" />
               </div>
             </Link>
           </div>
@@ -98,3 +99,17 @@ class Welcome extends Component {
 }
 
 export default Welcome;
+
+{
+  /* <Link
+to="aboutme"
+spy={true}
+smooth={true}
+offset={-60}
+duration={500}
+>
+<div className="arrow__container">
+  <i className="fas fa-arrow-down fa-2x" />
+</div>
+</Link> */
+}

@@ -2,8 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
 }
 
 .welcomeall {
@@ -12,6 +10,7 @@
   align-items: center;
   justify-content: center;
   z-index: 50;
+  height: 100vh;
 }
 
 #greeting h1 {
@@ -21,23 +20,18 @@
   word-spacing: 1em;
   font-size: 1.8em;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  margin-top: 0%;
-  height: fit-content;
-  margin: 0 auto;
-  margin-bottom: 3%;
 }
 
 #avatarme {
-  max-width: 150px;
+  max-width: 145px;
 }
 
 .work__title {
   text-align: center;
-  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-style: italic;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -45,29 +39,29 @@
 .contact__div {
   width: 100%;
   flex-direction: row;
+  margin-top: 2%;
+  flex-grow: 0.7;
 }
 
 .contact__img {
   display: flex;
-  justify-content: space-around;
-  padding: 1% 0 4% 0;
+  justify-content: space-between;
 }
 
 .contact__img i {
-  margin-bottom: 5%;
   color: black;
 }
 
 .arrow__container {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .arrow__container i {
   animation: MoveUpDown 2s linear infinite;
-  position: absolute;
-  margin-bottom: 1%;
+  position: relative;
+  font-size: 35px;
+
+  padding: 5px;
 }
 
 .arrow__container:hover {
@@ -102,33 +96,10 @@
   }
 }
 
-@media (max-width: 411px) {
-  .work__title {
-    font-size: 0.7em;
-  }
-  #avatarme {
-    max-width: 140px !important;
-  }
-}
-
-@media (max-width: 1024px) {
-  .arrow__container i {
-    font-size: 5em;
-  }
-  #avatarme {
-    max-width: 200px;
-  }
-}
-
 @media (max-width: 769px) {
   .arrow__container i {
-    font-size: 4em;
-  }
-}
-
-@media (max-width: 769px) {
-  .arrow__container i {
-    font-size: 3em;
+    border: 2px solid black;
+    border-radius: 100%;
   }
 }
 
