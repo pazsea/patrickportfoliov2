@@ -99,17 +99,3 @@ class Welcome extends Component {
 }
 
 export default Welcome;
-
-{
-  /* <Link
-to="aboutme"
-spy={true}
-smooth={true}
-offset={-60}
-duration={500}
->
-<div className="arrow__container">
-  <i className="fas fa-arrow-down fa-2x" />
-</div>
-</Link> */
-}
