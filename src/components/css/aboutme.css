@@ -104,7 +104,6 @@
     font-size: 10px;
   }
   .inner {
-    flex-wrap: wrap;
     flex-direction: column;
   }
   .two {
