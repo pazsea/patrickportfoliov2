@@ -23,7 +23,7 @@
 }
 
 .container-all h3 {
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 1px 0;
   font-weight: 100;
   text-transform: uppercase;
   color: #3f19e7;
@@ -61,7 +61,7 @@
   border: 1px solid black;
   text-decoration: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 7px;
 }
 
 .readmore:hover {

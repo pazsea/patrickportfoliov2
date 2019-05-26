@@ -33,9 +33,9 @@ class AboutMe extends Component {
                   <blockquote className="innerText_one">
                     By the way, this portfolio page is done completely in React
                     and I did some awesome things coding the
-                    <span style={{ color: "red" }}> React </span>way!
-                    <br /> Please feel free to check out those coding solutions
-                    by clicking the button on the right!
+                    <span style={{ color: "red" }}> React </span>way! Also with
+                    a neat commit API in the portfolio page.
+                    <br /> Please check it out in the Github repo.
                   </blockquote>
                   <div className="innerText_two">
                     <a

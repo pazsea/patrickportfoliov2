@@ -14,7 +14,8 @@
     "react-scroll": "^1.7.10",
     "react-scroll-trigger": "^0.5.2",
     "react-sticky": "^6.0.3",
-    "react-sticky-el": "^1.0.20"
+    "react-sticky-el": "^1.0.20",
+    "remove-node-modules": "^1.7.4"
   },
   "scripts": {
     "start": "react-scripts start",

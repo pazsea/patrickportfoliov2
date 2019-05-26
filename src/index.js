@@ -7,24 +7,23 @@ import * as serviceWorker from "./serviceWorker";
 const projects = [
   {
     id: "1",
-    head: "My first portfolio website",
-    url: require("../src/components/pics/myportfolio-min.png"),
+    head: "Booking App",
+    url: require("../src/components/pics/bookingapp.png"),
     alt: "två",
-    button_url: "https://github.com/pazsea/patrickportfolio",
+    button_url: "https://github.com/pazsea/bookingapp",
     text:
-      "After two months in school, we got a big assignment. We created a portfolio page. Mine was done only in CSS, HTML, and JS.",
-    api_url:
-      "https://api.github.com/repos/pazsea/patrickportfolio/commits/master"
+      "With a team of great student colleagues, we created this booking app. Applicable at any school or company that needs to reserve rooms for meetings. Firebase + React = Win!",
+    api_url: "https://api.github.com/repos/pazsea/bookingapp/commits/master"
   },
   {
     id: "2",
-    head: "Chaweng Thai Wok",
-    url: require("../src/components/pics/chawengthaiwok-min.png"),
+    head: "Sniph parfumes",
+    url: require("../src/components/pics/sniph.png"),
     alt: "ett",
-    button_url: "https://github.com/pazsea/chawengthaiwok",
+    button_url: "https://github.com/pazsea/gjtp",
     text:
-      "I got a project working on a friends restaurants homepage. I did this page using only HTML/CSS.",
-    api_url: "https://api.github.com/repos/pazsea/chawengthaiwok/commits/master"
+      "Me and a team of awesome student developers got an chance to develop a proof of concept for Sniph. They wanted their customer to stay longer on the page. We used Redux/Saga/React/Node.Js/SQL to accomplish this.",
+    api_url: "https://api.github.com/repos/pazsea/gjtp/commits/master"
   },
   {
     id: "3",
