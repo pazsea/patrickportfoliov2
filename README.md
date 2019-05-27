@@ -31,11 +31,11 @@ This portfolio is made in React JS. It was my first try doing anything in React.
 
    ```
 2. **Then just run the app**
-
-  ```shell
-  npm start
+```shell
+   npm start
 
    ```
+
 
 ## 👏 Attributes
 <a href="https://fontawesome.com/">- Font Awesome</a> For the icons that I have used.<br>
