@@ -22,7 +22,7 @@ const projects = [
     alt: "ett",
     button_url: "https://github.com/pazsea/gjtp",
     text:
-      "Me and a team of awesome student developers got an chance to develop a proof of concept for Sniph. They wanted their customer to stay longer on the page. We used Redux/Saga/React/Node.Js/SQL to accomplish this.",
+      "Me and a team of awesome student developers got an chance to develop for Sniph. We used Redux/Saga/React/Node.Js/SQL to accomplish this. Read more about it in the Github repo",
     api_url: "https://api.github.com/repos/pazsea/gjtp/commits/master"
   },
   {

@@ -7,10 +7,10 @@ import Zoom from "react-reveal/Zoom";
 import "../css/bubble.css";
 import "../css/aboutme.css";
 
-const proCSS = 70;
+const proCSS = 80;
 const proHTML = 90;
-const proJS = 70;
-const proReact = 60;
+const proJS = 90;
+const proReact = 90;
 
 class AboutMe extends Component {
   render() {
