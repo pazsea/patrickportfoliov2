@@ -31,7 +31,8 @@ This portfolio is made in React JS. It was my first try doing anything in React.
 
    ```
 2. **Then just run the app**
-```shell
+
+    ```shell
    npm start
 
    ```
