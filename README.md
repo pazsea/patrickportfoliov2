@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/src/images/logopaz.png" alt="Patrick Sjöberg Logo" width="100"/>
+<img src="/src/images/logopaz.png" alt="Patrick Sjöberg Logo" width="150"/>
 </p>
 
 ## 🚩 Project Goal
