@@ -1,5 +1,5 @@
 <p align="center">
-<img src="\src\images\logopaz.png" alt="Patrick Sjöberg Logo" width="350"/>
+<img src="/src/images/logopaz.png" alt="Patrick Sjöberg Logo" width="100"/>
 </p>
 
 ## 🚩 Project Goal
@@ -31,8 +31,9 @@ This portfolio is made in React JS. It was my first try doing anything in React.
 
    ```
 2. **Then just run the app**
-```shell
-   npm start
+
+  ```shell
+  npm start
 
    ```
 
