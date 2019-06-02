@@ -30,10 +30,10 @@ const projects = [
     head: "Our text editor",
     url: require("../src/components/pics/quirepage-min.png"),
     alt: "tre",
-    button_url: "https://github.com/bayev/Taurus",
+    button_url: "https://github.com/pazsea/quire-notepad",
     text:
       "This was our first group project. For this, we had instruction to create a fully functional text editor. With a save function in LS.",
-    api_url: "https://api.github.com/repos/bayev/Taurus/commits/master"
+    api_url: "https://api.github.com/repos/pazsea/quire-notepad/commits/master"
   }
 ];
 
