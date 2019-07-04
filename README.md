@@ -44,6 +44,3 @@ This portfolio is made in React JS. It was my first try doing anything in React.
 <a href="https://www.npmjs.com/package/react-scroll">- npm react-scroll</a> Library I used for scrolling sections.<br>
 <a href="https://www.npmjs.com/package/react-circular-progressbar">- npm react-circular-progressbar</a>Library I used for my progressbar animation.<br>
 <a href="https://www.npmjs.com/package/reveal">- npm react-reveal </a>Library I used for my reveal animations.<br>
-
-## 📓 Author
-Patrick Sjöberg <a href="https://github.com/paz198787">@paz198787</a> <br>
